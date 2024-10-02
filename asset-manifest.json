@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/kanban-board/static/css/main.ab7bae59.css",
+    "main.js": "/kanban-board/static/js/main.d57cf681.js",
+    "static/media/Display.svg": "/kanban-board/static/media/Display.0168095040354204011b596e30abf32e.svg",
+    "static/media/3dot.svg": "/kanban-board/static/media/3dot.4caedb468f68b915626e0e35045257b3.svg",
+    "static/media/No-priority.svg": "/kanban-board/static/media/No-priority.7218b139313728c6a4efa8da6e34852b.svg",
+    "static/media/down.svg": "/kanban-board/static/media/down.b19d146ddbaad572f0f5cebb6dbdf766.svg",
+    "index.html": "/kanban-board/index.html",
+    "static/media/LowPriority.svg": "/kanban-board/static/media/LowPriority.491e21f9000cb90112dea470dbb72650.svg",
+    "static/media/MediumPriority.svg": "/kanban-board/static/media/MediumPriority.83775665307e977d62e9b0fc7fb95cc4.svg",
+    "static/media/HighPriority.svg": "/kanban-board/static/media/HighPriority.5024fd0d163cb13c95f2d29079e2974d.svg",
+    "static/media/add.svg": "/kanban-board/static/media/add.f84a7335f3fac0026df6cafc2489b65d.svg",
+    "static/media/in-progress.svg": "/kanban-board/static/media/in-progress.d4beb72fbc94f765259fc46ecaba9779.svg",
+    "static/media/UrgentPrioritycolour.svg": "/kanban-board/static/media/UrgentPrioritycolour.9b67f75d5459d4d66573ef9f8e6f6841.svg",
+    "static/media/Backlog.svg": "/kanban-board/static/media/Backlog.97adf3356b7d2e775ef530f7aed206e0.svg",
+    "static/media/To-do.svg": "/kanban-board/static/media/To-do.c01d92afcffeef58b2cd9ae080df1f58.svg",
+    "main.ab7bae59.css.map": "/kanban-board/static/css/main.ab7bae59.css.map",
+    "main.d57cf681.js.map": "/kanban-board/static/js/main.d57cf681.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab7bae59.css",
+    "static/js/main.d57cf681.js"
+  ]
+}

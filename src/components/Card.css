@@ -1,0 +1,88 @@
+
+  
+  .card h3 {
+    font-size: 12px;
+    margin: 0 0 10px 0;
+  }
+  
+  .priority-4 {
+    background-color: #f8d7da;
+  }
+  
+  .priority-3 {
+    background-color: #fff3cd;
+  }
+  
+  .priority-2 {
+    background-color: #d1ecf1;
+  }
+  
+  .priority-1 {
+    background-color: #d4edda;
+  }
+  
+  .priority-0 {
+    background-color: #e2e3e5;
+  }
+  
+
+
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    transition: transform 0.3s;
+    font-size: 12px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    width: 200px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    position: relative; 
+  }
+
+  .cardp{
+    margin: 2px;
+  }
+  
+  /* Specific styles for the title */
+  .card-title {
+    font-size: 16px; /* Adjust as necessary */
+    overflow: hidden; /* Hide overflowing content */
+    white-space: nowrap; /* Prevent line breaks */
+    text-overflow: ellipsis; /* Show ellipsis for overflowing text */
+    flex-grow: 1; /* Allow title to grow and push down the next element */
+  }
+  
+  /* Optional: styles for user cards */
+  .card.user {
+    background-color: #f0f8ff; /* Different background color for user cards */
+  }
+  
+  
+  .ticket-card {
+    background-color: #f9f9f9;
+  }
+  
+  .user-card {
+    background-color: #e0f7fa; /* Light blue background for user cards */
+  }
+  
+  .ticket-card h3 {
+    color: #333; /* Darker color for ticket title */
+  }
+  
+  .user-card h3 {
+    color: #00796b; /* Dark teal for user name */
+  }
+  

@@ -1,0 +1,135 @@
+body{
+  font-family: "Inter", sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  border: 0.5px black;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.dropdown-toggle {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.icon{
+  margin: 0px 4px;
+}
+
+.dropdown-toggle i {
+  margin-right: 5px; 
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 1;
+  width: 200px;
+  color: #838383;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-item {
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.dropdown-item label {
+  margin-right: 10px;
+}
+
+.kanban-board {
+  display: flex;
+  flex-direction: column;
+}
+
+.group-by-selector {
+  margin-bottom: 20px;
+}
+
+.tickets {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+/* src/App.css */
+
+.kanban-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+
+.column {
+  flex: 1; /* Each column takes equal space */
+  margin: 0 10px; /* Add some space between columns */
+  padding: 10px;
+  border: 1px solid #ccc; /* Optional border for each column */
+  border-radius: 5px; /* Optional rounded corners */
+  background-color: #f9f9f9; /* Optional background color */
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grouped-columns {
+  display: flex;
+  flex-direction: row;
+  gap: 20px; 
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+}
+
+.group-title {
+  display: flex; 
+  flex-direction: row;
+  align-items: center; 
+}
+
+.tickets-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column;  */
+  gap: 10px; 
+}
+
+.grouphead{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
